@@ -1,7 +1,3 @@
-# gatsby-bsr-starter
+# 1140 NFT
 
-- Gatsby Starter + Bootstrap React 
-- Light and Dark Navbars
-- Footer 
-
-Have fun! 
+# 1140nft
