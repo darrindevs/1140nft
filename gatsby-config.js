@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Template With React Bootstrap`,
-    description: `Bare bones Gatsby starter modified to use React Bootstrap`,
+    title: `1140 NFT`,
+    description: ``,
     author: `darrindevs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
