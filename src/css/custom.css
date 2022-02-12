@@ -10,6 +10,10 @@
 *********** Basics ***********
 */
 
+body {
+    background-image: url('https://zno.s3.us-west-1.amazonaws.com/grid-blue-1.jpg');
+}
+
 .block {
     padding-top: 20px;
     padding-bottom: 20px;
