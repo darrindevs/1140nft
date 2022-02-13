@@ -189,56 +189,24 @@ const Layout = ({ children }) => {
                 </div>
               </Col>
               </Row>
-            <div className="block" id="Intro">
-              <Row>
-               <h2>Intro</h2>
-                <Col>
-                  <p>
-                  Poke hexagon keytar post-ironic echo park chambray humblebrag coloring book kitsch woke. Mustache whatever man braid salvia poke meditation kickstarter cred, locavore try-hard pork belly cornhole tbh roof party sriracha. 
-                  </p>
-                </Col>
-                <Col>
-                  <p>
-                   3 wolf moon gluten-free man bun blue bottle disrupt adaptogen try-hard neutra stumptown mixtape. Retro butcher artisan typewriter, lumbersexual brooklyn vape listicle. Bicycle rights letterpress la croix PBR&B literally.
-                  </p>
-                </Col>
+            
+
+            </Container>
+            <Container fluid className="container-5">
+              <Row className="justify-content-md-center">
+                <ul>
+                  <li>Intro</li>
+                  <li>About Mint</li>
+                  <li>Community</li>
+                  <li>Roadmap</li>
+                  <li>Team</li>
+                  <li>Mint CTA</li>
+                  <li>Value Add</li>
+                  <li>FAQs</li>
+                </ul>
               </Row>
-             </div>
-             <div className="block" id="mint">
-               <Row>
-                <h2>About Mint</h2>
-               </Row>
-             </div>
-             <div className="block" id="community">
-               <Row>
-                <h2>Community</h2>
-               </Row>
-             </div>
-             <div className="block" id="roadmap">
-               <Row>
-                <h2>Roadmap</h2>
-               </Row>
-             </div>
-             <div className="block" id="Team">
-               <Row>
-                <h2>Team</h2>
-               </Row>
-             </div>
-             <div className="block" id="mint-cta">
-               <Row>
-                <h2>Mint CTA</h2>
-               </Row>
-             </div>
-             <div className="block" id="value-add">
-               <Row>
-                <h2>Value Add</h2>
-               </Row>
-             </div>
-             <div className="block" id="faq">
-               <Row>
-                <h2>FAQs</h2>
-               </Row>
-             </div>
+            </Container>
+            <Container fluid className="container-6">
 
             </Container>
        
