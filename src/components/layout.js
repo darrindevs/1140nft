@@ -53,7 +53,59 @@ const Layout = ({ children }) => {
       {/* Container 1 */}
         <Container fluid className="container-1">
           <main>
-            
+          <Row className="justify-content-md-center">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <div class="card card-map">
+                   <div class="card-body">
+                     <h1>Fractionalized <span className="blue">Real World</span> Real Estate Investing</h1>
+                     <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                     <span> <Button variant="outline-primary">Follow Us</Button>{' '}</span>
+                     <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
+                   </div>
+                 </div>
+               </Col>
+             </Row>
+             <Row className="justify-content-md-center">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <div class="card card-map">
+                   <div class="card-body">
+                     <h2>Heading</h2>
+                     <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                   </div>
+                 </div>
+               </Col>
+             </Row>
+             <Row className="justify-content-md-center">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <div class="card card-map">
+                   <div class="card-body">
+                     <h2>Heading</h2>
+                     <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                   </div>
+                 </div>
+               </Col>
+             </Row>
+             <Row className="justify-content-md-center">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <div class="card card-map">
+                   <div class="card-body">
+                     <h2>Heading</h2>
+                     <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                   </div>
+                 </div>
+               </Col>
+             </Row>
+             <Row className="justify-content-md-center">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <div class="card card-map">
+                   <div class="card-body">
+                     <h2>Heading</h2>
+                     <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                   </div>
+                 </div>
+               </Col>
+             </Row>
+             
           </main>
          </Container>
          
