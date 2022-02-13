@@ -10,9 +10,47 @@
 *********** Basics ***********
 */
 
-body {
-    background-image: url('https://zno.s3.us-west-1.amazonaws.com/grid-blue-1.jpg');
+.container-1  {
+    background-image: url('https://zno.s3.us-west-1.amazonaws.com/grid-blue-2.jpg');
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
+.container-11  {
+    /*background-image: url('https://zno.s3.us-west-1.amazonaws.com/grid-blue-2.jpg');*/
+    background-color: #01d1ff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-2 {
+    background-image: url('https://zno.s3.us-west-1.amazonaws.com/map-la-1.jpg');
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.container-3  {
+    /*background-image: url('https://zno.s3.us-west-1.amazonaws.com/grid-blue-2.jpg');*/
+    background-color: #ffb800;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* 
+*********** Sections ***********
+*/
+
+.Hero {
+    background-color: white;
+    border-radius: 40px;
+    
+}
+
+.spacey {
+    margin: 40px;
+}
+
 
 .block {
     padding-top: 20px;
@@ -52,10 +90,36 @@ body {
     background-color: white;
     border-width: 2px;
     border-color: black;
-    box-shadow: 13px 13px 0 1px #000;
-    margin-top: -150px;
-    min-width: 400px;
+    box-shadow: 13px 13px 0 1px #ffb800;
+    /*margin-top: -150px;*/
+    /*min-width: 400px;*/
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-map {
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 13px 13px 0 1px black;
+    /*margin-top: -150px;*/
+    /*min-width: 400px;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-alt {
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 13px 13px 0 1px #01d1ff;
+    /*margin-top: -150px;*/
+    /*min-width: 400px;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* 
