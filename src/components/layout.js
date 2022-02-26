@@ -54,22 +54,15 @@ const Layout = ({ children }) => {
         <Container fluid className="">
           <main>
           
-             <Row className="justify-content-md-center">
+             <Row className="justify-content-md-center pt-5 pb-5">
                <Col md={{ span: 4, offset: 0 }}>
                  <h1>Hero Heading</h1>
                  <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                 <span> <Button variant="outline-primary">Follow Us</Button>{' '}</span>
+                 <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
                </Col>
              </Row>
-
-             
-
-
-
-
-
-
-
-             <Row className="justify-content-md-center">
+             <Row className="justify-content-md-center pb-5">
              <div class="row row-cols-1 row-cols-md-3 mb-5">
                   <img id="p5" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" width={300} height={300} />    
                  
@@ -80,9 +73,7 @@ const Layout = ({ children }) => {
                  
                </div>
                <div class="row row-cols-1 row-cols-md-4 justify-content-center">
-                 
                  <img id="p4" align="" src="https://zno.s3.us-west-1.amazonaws.com/glucas1.jpeg" width={300} height={300} />
-                 
                  <img id="p6" align="" src="https://zno.s3.us-west-1.amazonaws.com/clippers1.jpeg" width={300} height={300} />
                </div>
 
@@ -90,9 +81,9 @@ const Layout = ({ children }) => {
              
              </Row>
              
-             <Row className="justify-content-md-center">
+             <Row className="justify-content-md-center pt-5">
                <Col md={{ span: 4, offset: 0 }}>
-                 foo
+                 <h2>Roadmap</h2>
                </Col>
              </Row>
              
