@@ -20,28 +20,33 @@
 
 
 #p1 {
-    margin-top: 40px;
-    margin-bottom:;
+    margin-top:;
+    object-fit: cover;
 }
 
 #p2 {
     margin-bottom:;
+    object-fit: cover;
 }
 
 #p3 {
-    margin-top: 80px;
+    margin-top:;
+    object-fit: cover;
 }
 
 #p4 {
     margin-bottom:;
+    object-fit: cover;
 }
 
 #p5 {
-    margin-top: 60px;
+    margin-top:;
+    object-fit: cover;
 }
 
 #p6 {
-    margin-top: 20px;
+    margin-top:;
+    object-fit: cover;
 }
 
 
