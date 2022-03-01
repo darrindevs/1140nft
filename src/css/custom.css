@@ -57,6 +57,16 @@ h1 {
     object-fit: cover;
 }
 
+/* 
+*********** Timeline ***********
+*/
+
+.vertical-timeline-element-icon {
+    width: 20px;
+    height: 20px;
+    
+}
+
 
 /* 
 *********** Cards ***********

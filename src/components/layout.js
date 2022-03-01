@@ -9,6 +9,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+// react-vertical-timeline-component
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 //import Header from "./header"
 //import NavDark from "./nav-dark"
@@ -57,6 +61,7 @@ const Layout = ({ children }) => {
              <Row className="justify-content-md-center pt-5 pb-5">
                <Col md={{ span: 4, offset: 0 }}>
                  <h1>Hero Heading</h1>
+                 <h3>A Sub Heading</h3>
                  <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
                  <span> <Button variant="outline-primary">Follow Us</Button>{' '}</span>
                  <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
@@ -84,12 +89,124 @@ const Layout = ({ children }) => {
              <Row className="justify-content-md-center pt-5">
                <Col md={{ span: 4, offset: 0 }}>
                  <h2>Roadmap</h2>
+                 {/* https://www.npmjs.com/package/react-vertical-timeline-component */}
+                 <VerticalTimeline>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                  </VerticalTimeline>
                </Col>
              </Row>
-             
+             <Row className="justify-content-md-center pt-5 pb-5">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <h2>Join the Waitlist for early access</h2>
+                 <span> <Button variant="primary">Join</Button>{' '}</span>
+               </Col>
+             </Row>
           </main>
          </Container>
-         
+      
        
          {/*  <Footer/> */}
         
