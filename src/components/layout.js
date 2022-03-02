@@ -72,32 +72,35 @@ const Layout = ({ children }) => {
               <div className="blocks">
                 <div className="b1">
                   <div className="b1inner">
-                    block1
+                  <img id="img1" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                 
+                    
                   </div>
                 </div>
                 <div className="b2">
                   <div className="b2inner">
-                    block 2
+                  <img id="img2" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                  
                   </div>
                 </div>
                 <div className="b3">
                   <div className="b3inner">
-                    block 3
+                  <img id="img3" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
                   </div>
                 </div>
                 <div className="b4">
                   <div className="b4inner">
-                    block 5
+                  <img id="img4" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
                   </div>
                 </div>
                 <div className="b5">
                   <div className="b5inner">
-                    block 5
+                  <img id="img5" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
                   </div>
                 </div>
                 <div className="b6">
                   <div className="b6inner">
-                    block 6
+                  <img id="img6" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
                   </div>
                 </div>
               </div>

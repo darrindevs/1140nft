@@ -29,14 +29,10 @@ h1 {
 
 .blockgrid {
     display: block;
-    border-style: solid;
-    border-color: green;
 }
 
 .blocks {
     display: block;
-    border-style: solid;
-    border-color: red;
     position: relative;
     left: 2.5vw;
     width: 95vw;
@@ -45,8 +41,6 @@ h1 {
 
 .b1 {
     display: block;
-    border-style: solid;
-    border-color: blue;
     position: absolute;
     top: 4.86914vw;
     left: 0vw;
@@ -56,33 +50,14 @@ h1 {
 
 .b1inner {
     display: block;
-    border-style: solid;
-    border-color: green;
     background-size: cover;
     position: absolute;
     inset: 0px;
     overflow: hidden;
 }
 
-.b1span {
-    border-style: solid;
-    border-color: green;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(6px);
-    padding: 6px 12px;
-    border-radius: 999px;
-    font-size: clamp(9px, 2.1vmin, 14px);
-    line-height: 1;
-}
-
 .b2 {
     display: block;
-    border-style: solid;
-    border-color: yellow;
     position: absolute;
     top: 3.41876vw;
     left: 14.193vw;
@@ -92,8 +67,6 @@ h1 {
 
 .b2inner {
     display: block;
-    border-style: solid;
-    border-color: purple;
     background-size: cover;
     position: absolute;
     inset: 0px;
@@ -102,8 +75,6 @@ h1 {
 
 .b3 {
     display: block;
-    border-style: solid;
-    border-color: yellow;
     position: absolute;
     top: 9.01309vw;
     left: 32.8408vw;
@@ -114,8 +85,6 @@ h1 {
 
 .b3inner {
     display: block;
-    border-style: solid;
-    border-color: purple;
     background-size: cover;
     position: absolute;
     inset: 0px;
@@ -124,8 +93,6 @@ h1 {
 
 .b4 {
     display: block;
-    border-style: solid;
-    border-color: yellow;
     position: absolute;
     top: 0vw;
     left: 52.9389vw;
@@ -135,8 +102,6 @@ h1 {
 
 .b4inner {
     display: block;
-    border-style: solid;
-    border-color: purple;
     background-size: cover;
     position: absolute;
     inset: 0px;
@@ -145,8 +110,6 @@ h1 {
 
 .b5 {
     display: block;
-    border-style: solid;
-    border-color: yellow;
     position: absolute;
     top: 4.55834vw;
     left: 67.132vw;
@@ -156,8 +119,6 @@ h1 {
 
 .b5inner {
     display: block;
-    border-style: solid;
-    border-color: purple;
     background-size: cover;
     position: absolute;
     inset: 0px;
@@ -166,8 +127,6 @@ h1 {
 
 .b6 {
     display: block;
-    border-style: solid;
-    border-color: yellow;
     position: absolute;
     top: 9.01309vw;
     left: 81.325vw;
@@ -177,8 +136,6 @@ h1 {
 
 .b6inner {
     display: block;
-    border-style: solid;
-    border-color: purple;
     background-size: cover;
     position: absolute;
     inset: 0px;
@@ -186,12 +143,54 @@ h1 {
 }
 
 /* 
-*********** Image Block  ***********
+*********** Image Blocks  ***********
 */
 
+#img1 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-#p1 {
-    margin-top:;
+#img2 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img3 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img4 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img5 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img6 {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
