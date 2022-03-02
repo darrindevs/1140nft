@@ -9,6 +9,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+// react-vertical-timeline-component
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 //import Header from "./header"
 //import NavDark from "./nav-dark"
@@ -51,210 +55,204 @@ const Layout = ({ children }) => {
       {/* Custom Navbar */}
       {NavLight}
       {/* Container 1 */}
-        <Container fluid className="container-1">
+        <Container fluid className="">
           <main>
-            {/* Row 1 */}
-            <Row className="justify-content-md-center">
-              <Col md={{ span: 6, offset: 0 }}>
-                <div class="card card-map">
-                  <div class="card-body">
-                    <h1>Fractionalized <span className="blue">Real World</span> Real Estate Investing</h1>
-                    <h2>Hero</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                    <span> <Button variant="outline-primary">Follow Us</Button>{' '}</span>
-                    <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-             
-              </main>
-         </Container>
-         {/* Container 1 */}
-        <Container fluid className="container-11">
-         
-              {/* Row 3 */}
-              <Row>
-                <Col md={{ span: 5, offset: 3 }}>
-                  <div class="card">
-                    <div class="card-body">
-                      <h2>Heading</h2>
-                      <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-             {/* Row 4 */}
-             <Row>
-              <Col md={{ span: 5, offset: 4 }}>
-                <div class="card">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              </Row>
-               {/* Row 3 */}
-               <Row>
-                <Col md={{ span: 5, offset: 3 }}>
-                  <div class="card">
-                    <div class="card-body">
-                      <h2>Heading</h2>
-                      <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              
-
-        </Container>
-         {/* Container 2 */}
-         <Container fluid className="container-2">
-         <Row>
-              <Col md={{ span: 3, offset: 1 }}>
-                <div class="card card-map">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              <Col md={{ span: 3, offset: 0 }}>
-              <div class="card card-map">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              <Col md={{ span: 3, offset: 0 }}>
-              <div class="card card-map">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-            <Row className="justify-content-md-center">
-              <Col md={{ span: 3, offset: 0 }}>
-                <div class="card card-map">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              <Col md={{ span: 3, offset: 0 }}>
-              <div class="card card-map">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
           
-        </Container>
-             {/* Container 3 */}
-            <Container fluid className="container-3">
-            <Row className="justify-content-md-center">
-            <Col md={{ span: 6, offset: 0 }}>
-                <div class="card card-alt">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              </Row>
-              <Row className="justify-content-md-center">
-            <Col md={{ span: 6, offset: 0 }}>
-                <div class="card card-alt">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              </Row>
-              <Row className="justify-content-md-center">
-            <Col md={{ span: 6, offset: 0 }}>
-                <div class="card card-alt">
-                  <div class="card-body">
-                    <h2>Heading</h2>
-                    <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
-                  </div>
-                </div>
-              </Col>
-              </Row>
-            <div className="block" id="Intro">
-              <Row>
-               <h2>Intro</h2>
-                <Col>
-                  <p>
-                  Poke hexagon keytar post-ironic echo park chambray humblebrag coloring book kitsch woke. Mustache whatever man braid salvia poke meditation kickstarter cred, locavore try-hard pork belly cornhole tbh roof party sriracha. 
-                  </p>
-                </Col>
-                <Col>
-                  <p>
-                   3 wolf moon gluten-free man bun blue bottle disrupt adaptogen try-hard neutra stumptown mixtape. Retro butcher artisan typewriter, lumbersexual brooklyn vape listicle. Bicycle rights letterpress la croix PBR&B literally.
-                  </p>
-                </Col>
-              </Row>
-             </div>
-             <div className="block" id="mint">
-               <Row>
-                <h2>About Mint</h2>
-               </Row>
-             </div>
-             <div className="block" id="community">
-               <Row>
-                <h2>Community</h2>
-               </Row>
-             </div>
-             <div className="block" id="roadmap">
-               <Row>
-                <h2>Roadmap</h2>
-               </Row>
-             </div>
-             <div className="block" id="Team">
-               <Row>
-                <h2>Team</h2>
-               </Row>
-             </div>
-             <div className="block" id="mint-cta">
-               <Row>
-                <h2>Mint CTA</h2>
-               </Row>
-             </div>
-             <div className="block" id="value-add">
-               <Row>
-                <h2>Value Add</h2>
-               </Row>
-             </div>
-             <div className="block" id="faq">
-               <Row>
-                <h2>FAQs</h2>
-               </Row>
-             </div>
+             <Row className="justify-content-md-center pt-5 pb-5">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <h1>Hero Heading</h1>
+                 <h3>A Sub Heading</h3>
+                 <p>Hexagon brunch vape bitters actually post-ironic. YOLO vaporware flannel kogi, subway tile trust fund direct trade chicharrones vegan kitsch fashion axe bushwick. Hexagon farm-to-table disrupt blog intelligentsia flannel sriracha gentrify meggings. Tacos put a bird on it offal, iceland enamel pin 90's next level readymade seitan narwhal brooklyn polaroid copper mug try-hard gochujang. Mlkshk selfies YOLO, lyft meditation brooklyn hoodie live-edge viral man bun. Af farm-to-table shaman, subway tile la croix thundercats pickled.</p>
+                 <span> <Button variant="outline-primary">Follow Us</Button>{' '}</span>
+                 <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
+               </Col>
+             </Row>
 
-            </Container>
-            <Container fluid className="container-5">
-              <Row className="justify-content-md-center">
-                <ul>
-                  <li>Intro</li>
-                  <li>About Mint</li>
-                  <li>Community</li>
-                  <li>Roadmap</li>
-                  <li>Team</li>
-                  <li>Mint CTA</li>
-                  <li>Value</li>
+            <div className="blockgrid">
+              <div className="blocks">
+                <div className="b1">
+                  <div className="b1inner">
+                  <img id="img1" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                 
+                    
+                  </div>
+                </div>
+                <div className="b2">
+                  <div className="b2inner">
+                  <img id="img2" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
                   
-                </ul>
-              </Row>
-            </Container>
+                  </div>
+                </div>
+                <div className="b3">
+                  <div className="b3inner">
+                  <img id="img3" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                  </div>
+                </div>
+                <div className="b4">
+                  <div className="b4inner">
+                  <img id="img4" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                  </div>
+                </div>
+                <div className="b5">
+                  <div className="b5inner">
+                  <img id="img5" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                  </div>
+                </div>
+                <div className="b6">
+                  <div className="b6inner">
+                  <img id="img6" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" />    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <Row className="justify-content-md-center pt-5">
+           
+              
+            </Row>
+           
+             
+             
+             
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+            
+             <Row className="justify-content-md-center pt-5">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <h2>Roadmap</h2>
+                 {/* https://www.npmjs.com/package/react-vertical-timeline-component */}
+                 <VerticalTimeline>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      contentStyle={{ background: '', color: '' }}
+                      contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                      >
+                      <h5 className="vertical-timeline-element-title">Timeline Event</h5>
+                      <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                      <p>
+                        Blah blah blah
+                      </p>
+                    </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                      className="vertical-timeline-element--work"
+                      date="2022"
+                      iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                      //icon={<WorkIcon />}
+                    >
+                    <h5 className="vertical-timeline-element-title">Timeline event</h5>
+                    <h6 className="vertical-timeline-element-subtitle pt-3">A subtitle</h6>
+                    <p>
+                      Blah blah blah
+                    </p>
+                    </VerticalTimelineElement>
+                  </VerticalTimeline>
+               </Col>
+             </Row>
+             <Row className="justify-content-md-center pt-5 pb-5">
+               <Col md={{ span: 4, offset: 0 }}>
+                 <h2>Join the Waitlist for early access</h2>
+                 <span> <Button variant="primary">Join</Button>{' '}</span>
+               </Col>
+             </Row>
+          </main>
+         </Container>
+      
        
          {/*  <Footer/> */}
         
