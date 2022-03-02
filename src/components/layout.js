@@ -67,6 +67,69 @@ const Layout = ({ children }) => {
                  <span> <Button variant="outline-primary">Join Discord</Button>{' '}</span>
                </Col>
              </Row>
+
+            <div className="blockgrid">
+              <div className="blocks">
+                <div className="b1">
+                  <div className="b1inner">
+                    block1
+                  </div>
+                </div>
+                <div className="b2">
+                  <div className="b2inner">
+                    block 2
+                  </div>
+                </div>
+                <div className="b3">
+                  <div className="b3inner">
+                    block 3
+                  </div>
+                </div>
+                <div className="b4">
+                  <div className="b4inner">
+                    block 5
+                  </div>
+                </div>
+                <div className="b5">
+                  <div className="b5inner">
+                    block 5
+                  </div>
+                </div>
+                <div className="b6">
+                  <div className="b6inner">
+                    block 6
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+             <Row className="">
+
+              <Col> <img id="p1" align="" src="https://via.placeholder.com/150/0000FF/808080" width={300} height={300} /></Col>
+              <Col><img id="p2" align="" src="https://via.placeholder.com/150/FF0000/FFFFFF" width={450} height={450} /></Col>
+              <Col><img id="p3" align="" src="https://via.placeholder.com/150/FFFF00" width={400} height={250} /></Col>
+              <Col><img id="p4" align="" src="https://via.placeholder.com/150/000000" width={300} height={500} /></Col>
+              <Col><img id="p5" align="" src="https://via.placeholder.com/150/0000FF/808080" width={300} height={300} /></Col>
+              <Col> <img id="p6" align="" src="https://via.placeholder.com/150/FF0000/FFFFFF" width={400} height={400} /></Col>
+             </Row>
+
+             
+             
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
              <Row className="justify-content-md-center pb-5">
              <div class="row row-cols-1 row-cols-md-3 mb-5">
                   <img id="p5" align="" src="https://zno.s3.us-west-1.amazonaws.com/la2.jpeg" width={300} height={300} />    

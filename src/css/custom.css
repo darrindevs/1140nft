@@ -22,6 +22,169 @@ h1 {
     font-size: 72px;
 }
 
+
+/* 
+*********** BLock Grid   ***********
+*/
+
+.blockgrid {
+    display: block;
+    border-style: solid;
+    border-color: green;
+}
+
+.blocks {
+    display: block;
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    left: 2.5vw;
+    width: 95vw;
+    height: 24.5529vw;
+}
+
+.b1 {
+    display: block;
+    border-style: solid;
+    border-color: blue;
+    position: absolute;
+    top: 4.86914vw;
+    left: 0vw;
+    width: 14.193vw;
+    height: 14.193vw;
+}
+
+.b1inner {
+    display: block;
+    border-style: solid;
+    border-color: green;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
+.b1span {
+    border-style: solid;
+    border-color: green;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: clamp(9px, 2.1vmin, 14px);
+    line-height: 1;
+}
+
+.b2 {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    position: absolute;
+    top: 3.41876vw;
+    left: 14.193vw;
+    width: 18.6478vw;
+    height: 18.6478vw;
+}
+
+.b2inner {
+    display: block;
+    border-style: solid;
+    border-color: purple;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
+.b3 {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    position: absolute;
+    top: 9.01309vw;
+    left: 32.8408vw;
+    width: 20.0981vw;
+    height: 11.1887vw;
+}
+
+
+.b3inner {
+    display: block;
+    border-style: solid;
+    border-color: purple;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
+.b4 {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    position: absolute;
+    top: 0vw;
+    left: 52.9389vw;
+    width: 14.193vw;
+    height: 24.5529vw;
+}
+
+.b4inner {
+    display: block;
+    border-style: solid;
+    border-color: purple;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
+.b5 {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    position: absolute;
+    top: 4.55834vw;
+    left: 67.132vw;
+    width: 14.193vw;
+    height: 14.193vw;
+}
+
+.b5inner {
+    display: block;
+    border-style: solid;
+    border-color: purple;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
+.b6 {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    position: absolute;
+    top: 9.01309vw;
+    left: 81.325vw;
+    width: 13.5714vw;
+    height: 13.5714vw;
+}
+
+.b6inner {
+    display: block;
+    border-style: solid;
+    border-color: purple;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+}
+
 /* 
 *********** Image Block  ***********
 */
