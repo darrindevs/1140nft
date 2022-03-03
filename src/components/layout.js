@@ -107,8 +107,8 @@ const Layout = ({ children }) => {
                 </div>
               </div>
             </div>
-            <Row className="justify-content-md-center pt-5">
-            <Timeline />
+            <Row id="timeline" className="justify-content-md-center pt-5">
+              <Timeline />
             </Row>
             <Row className="justify-content-md-center pt-5 pb-5">
                <Col md={{ span: 4, offset: 0 }}>

@@ -1,12 +1,58 @@
 import React from 'react';
 import timelineData from '../data';
-import TimelineItem from './TimelineItem';
+//import TimelineItem from './TimelineItem';
 
-const Timeline = () => timelineData.length > 0 && (
+const Timeline = () => (
     <div className='timeline-container'>
-        (timelineData.map((data, idx) =>
-        <TimelineItem data={data} key={idx} />
-        ))
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+        <div className="timeline-item">
+            <div className="timeline-item-content">
+                <span className="tag">tag</span>
+                <time>time</time>
+                <p>text</p>
+                <span className="circle"></span>
+            </div>
+        </div>
+                
     </div>
 );
 
