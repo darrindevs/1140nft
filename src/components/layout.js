@@ -32,6 +32,8 @@ import { Button } from 'react-bootstrap'
 //import { Media } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 
+//Timeline
+import Timeline from "./Timeline";
 
 
 
@@ -106,7 +108,7 @@ const Layout = ({ children }) => {
               </div>
             </div>
             <Row className="justify-content-md-center pt-5">
-            new timeline here
+            <Timeline />
             </Row>
             <Row className="justify-content-md-center pt-5 pb-5">
                <Col md={{ span: 4, offset: 0 }}>
