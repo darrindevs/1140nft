@@ -3,7 +3,9 @@ import timelineData from '../data';
 //import TimelineItem from './TimelineItem';
 
 const Timeline = () => (
+    
     <div className='timeline-container'>
+       
         <div className="timeline-item">
             <div className="timeline-item-content">
                 <span className="tag">tag</span>

@@ -107,7 +107,11 @@ const Layout = ({ children }) => {
                 </div>
               </div>
             </div>
-            <Row id="timeline" className="justify-content-md-center pt-5">
+            <Row id="timeline-heading" className="justify-content-md-center pt-5">
+              Project Timeline
+              </Row>
+            <Row className="justify-content-md-center">
+              
               <Timeline />
             </Row>
             <Row className="justify-content-md-center pt-5 pb-5">

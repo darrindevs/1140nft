@@ -272,7 +272,9 @@ h1 {
 
   {/* Timeline */}
 
- 
+#timeline-heading {
+    font-size: calc(1.325rem + .9vw);
+}
 
 .timeline-container {
     display: flex;
