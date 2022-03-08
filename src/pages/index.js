@@ -14,7 +14,6 @@ import { faUser } from "@fortawesome/free-regular-svg-icons"
 
 const IndexPage = () => (
   <>
- 
   <Layout>
     <Seo title="1140 NFT" />
     
