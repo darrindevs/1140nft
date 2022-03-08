@@ -2,7 +2,26 @@
 *********** Colors ***********
 */
 
+/* 
+*********** Navbar ***********
+*/
 
+.navbar-dark {
+    background-color: #2081E2;
+
+}
+
+.brando {
+    font-weight: bold;
+}
+
+.nav-item {
+    
+}
+
+.nav-icon {
+    width: 40px;
+}
 /* 
 *********** Containers ***********
 */

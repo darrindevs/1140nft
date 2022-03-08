@@ -15,8 +15,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 
 //import Header from "./header"
-//import NavDark from "./nav-dark"
-import NavLight from "./nav-light"
+import NavDark from "./nav-dark"
+//import NavLight from "./nav-light"
 import Footer from "./footer"
 //import "./layout.css"  
 // 👆 replaced with bootstrap minified 👇
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
       */}
       
       {/* Custom Navbar */}
-      {NavLight}
+      {NavDark}
       {/* Container 1 */}
         <Container fluid className="">
           <main>
