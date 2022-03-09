@@ -17,12 +17,12 @@ import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons"
 
 
 const NavDark = (
-    <Navbar bg="" expand="lg" className="navbar-dark">
+    <Navbar bg="" expand="lg" className="navbar-dark navbar sticky-top">
       <Navbar.Brand href="#home" className="brando ms-3">1140nft</Navbar.Brand>
       <Navbar.Toggle className="me-3 custom-toggler"/>
       <Navbar.Collapse className="justify-content-end me-3">
         <Navbar.Text className="text-white ms-3">
-        <Link to="/page-2/">Go to page 2</Link>
+        <Link to="/whitepaper/" className="text-link">Whitepaper</Link>
         <span></span>
          <span className="nav-item me-3"><i class="fa-solid fa-user"></i></span>
          <span class="fa-solid fa-user"></span>
