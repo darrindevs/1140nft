@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 // react-vertical-timeline-component
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -15,8 +16,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 
 //import Header from "./header"
-//import NavDark from "./nav-dark"
-import NavLight from "./nav-light"
+import NavDark from "./nav-dark"
+//import NavLight from "./nav-light"
 import Footer from "./footer"
 //import "./layout.css"  
 // 👆 replaced with bootstrap minified 👇
@@ -34,6 +35,14 @@ import { Card } from 'react-bootstrap'
 
 //Timeline
 import Timeline from "./Timeline";
+
+// Font Awesome 
+// https://www.youtube.com/watch?v=BbF-2o__5Xo 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faUser } from "@fortawesome/free-regular-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+// use it like this  <FontAwesomeIcon icon={faUser} size="10x" />
+
 
 
 
@@ -55,7 +64,7 @@ const Layout = ({ children }) => {
       */}
       
       {/* Custom Navbar */}
-      {NavLight}
+      {NavDark}
       {/* Container 1 */}
         <Container fluid className="">
           <main>
