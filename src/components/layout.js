@@ -39,10 +39,10 @@ import Timeline from "./Timeline";
 // Font Awesome 
 // https://www.youtube.com/watch?v=BbF-2o__5Xo 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faUser, faUserAlien } from "@fortawesome/free-regular-svg-icons"
+import { faUser } from "@fortawesome/free-regular-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // use it like this  <FontAwesomeIcon icon={faUser} size="10x" />
-// not avail anymore? import { } from "@fortawesome/free-brands-sv-icons"
+
 
 
 
@@ -70,10 +70,6 @@ const Layout = ({ children }) => {
           <main>
           
              <Row className="justify-content-md-center pt-5 pb-5">
-             <FontAwesomeIcon icon={faUser} />
-             <FontAwesomeIcon icon={faGithub} />
-             
-             
                <Col md={{ span: 4, offset: 0 }}>
                  <h1>Hero Heading</h1>
                  <h3>A Sub Heading</h3>

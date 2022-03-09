@@ -6,8 +6,8 @@
 *********** Icons ***********
 */
 
-.fal {
-    color: red;
+.fa-icon {
+    
 }
 
 /* 
@@ -15,7 +15,7 @@
 */
 
 .navbar-dark {
-    background-color: blue;
+    background-color: #2081E2;
 
 }
 
@@ -28,7 +28,8 @@
 }
 
 .nav-icon {
-    width: 40px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 
