@@ -18,7 +18,7 @@ import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons"
 
 const NavDark = (
     <Navbar bg="" expand="lg" className="navbar-dark navbar sticky-top">
-      <Navbar.Brand href="#home" className="brando ms-3">1140nft</Navbar.Brand>
+      <Navbar.Brand href="/" className="brando ms-3">1140nft</Navbar.Brand>
       <Navbar.Toggle className="me-3 custom-toggler"/>
       <Navbar.Collapse className="justify-content-end me-3">
         <Navbar.Text className="text-white ms-3">
