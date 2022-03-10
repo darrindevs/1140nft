@@ -9,9 +9,11 @@ import { Button } from 'react-bootstrap'
 const Timeline = () => (
     
     <>
+    <Row id="timeline-heading" className="justify-content-md-center pt-5">
+        Project Timeline
+    </Row>
     <Row className="justify-content-md-center">
     <div className='timeline-container'>
-       
        <div className="timeline-item">
            <div className="timeline-item-content">
                <span className="tag">tag</span>

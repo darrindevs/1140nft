@@ -43,9 +43,6 @@ const Blockgrid = () => (
                 </div>
               </div>
             </div>
-            <Row id="timeline-heading" className="justify-content-md-center pt-5">
-              Project Timeline
-              </Row>
     </>
 );
 

@@ -24,9 +24,6 @@
 
 }
 
-.brando {
-    font-weight: bold;
-}
 
 .nav-item {
     
@@ -37,6 +34,28 @@
     max-height: 40px;
 }
 
+.fa-icon {
+    color: #FFC20E;
+}
+
+#discord {
+    display: none;
+}
+
+#opensea {
+    display: none;
+}
+
+.brando {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: #FFC20E underline;
+}
+
+.mark-1 {
+    text-decoration: #FFC20E underline 5px;
+}
 
 /* 
 *********** Containers ***********
@@ -291,14 +310,40 @@ h1 {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
+/* 
+*********** Skyline ***********
+*/
+
+#skyline {
+        background-image: url("https://zno.s3.us-west-1.amazonaws.com/la_skyline_2.png");
+        background-color: #cccccc;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+  }
+
+  .skyline-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #FFC20E;
+    padding: 10px;
+  }
+
+
 /* 
 *********** Footer ***********
 */
 .footer{
-    margin-top: 1rem;
+    max-height: 40px;
     padding: 1rem;
-    background-color: rgb(235, 195, 64);
-    position: fixed;
+    background-color: #FFC20E;
     bottom: 0;
     left: 0;
     width: 100%;

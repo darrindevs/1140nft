@@ -18,7 +18,7 @@ import 'react-vertical-timeline-component/style.min.css';
 //import Header from "./header"
 import NavDark from "./nav-dark"
 //import NavLight from "./nav-light"
-import Footer from "./footer"
+import Footer from "./Footer"
 //import "./layout.css"  
 // 👆 replaced with bootstrap minified 👇
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -33,15 +33,6 @@ import { Button } from 'react-bootstrap'
 //import { Media } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 
-//Components
-//Hero
-import Hero from "./Hero";
-//Blockgrid
-import Blockgrid from "./Blockgrid";
-//Timeline
-import Timeline from "./Timeline";
-//Waitlist
-import Waitlist from "./Waitlist";
 
 // Font Awesome 
 // https://www.youtube.com/watch?v=BbF-2o__5Xo 
@@ -78,7 +69,7 @@ const Layout = ({ children }) => {
           {children}
           </main>
          </Container>
-         {/*  <Footer/> */}
+         <Footer />
         
     </>
   )
