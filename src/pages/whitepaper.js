@@ -6,11 +6,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const WhitePaper = () => (
-  <>
-
-  <h1>This is the WhitePaper</h1>
-    <p>Coming Soon!</p>
-  </>
+  <Layout>
+    <Seo title="Whitepaper" />
+    <h1>Whitepaper</h1>
+    <p>Coming Soon! ⚡️</p>
+    <Link to="/">Go back to the homepage</Link>
+  </Layout>
 )
 
 export default WhitePaper
