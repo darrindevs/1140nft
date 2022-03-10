@@ -5,6 +5,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+//Custom Components
+//Hero
+import Hero from "../components/Hero";
+//Blockgrid
+import Blockgrid from "../components/Blockgrid";
+//Timeline
+import Timeline from "../components/Timeline";
+//Waitlist
+import Waitlist from "../components/Waitlist";
+
 // Font Awesome 
 // https://www.youtube.com/watch?v=BbF-2o__5Xo 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -25,6 +35,10 @@ const IndexPage = () => (
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
     </p>
+    <Hero />
+          <Blockgrid />
+          <Timeline />
+          <Waitlist />
   </Layout>
   </>
   

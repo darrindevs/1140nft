@@ -73,17 +73,11 @@ const Layout = ({ children }) => {
       {/* Custom Navbar */}
       {NavDark}
       {/* Container 1 */}
-        <Container fluid className="">
+        <Container fluid>
           <main>
-          <Hero />
-          <Blockgrid />
-          <Timeline />
-          <Waitlist />
-            
+          {children}
           </main>
          </Container>
-      
-       
          {/*  <Footer/> */}
         
     </>
