@@ -33,13 +33,15 @@ import { Button } from 'react-bootstrap'
 //import { Media } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 
-
+//Components
 //Hero
 import Hero from "./Hero";
 //Blockgrid
 import Blockgrid from "./Blockgrid";
 //Timeline
 import Timeline from "./Timeline";
+//Waitlist
+import Waitlist from "./Waitlist";
 
 // Font Awesome 
 // https://www.youtube.com/watch?v=BbF-2o__5Xo 
@@ -76,16 +78,8 @@ const Layout = ({ children }) => {
           <Hero />
           <Blockgrid />
           <Timeline />
-             
-
-           
-           
-            <Row className="justify-content-md-center pt-5 pb-5">
-               <Col md={{ span: 4, offset: 0 }}>
-                 <h2>Join the Waitlist for early access</h2>
-                 <span> <Button variant="primary">Join</Button>{' '}</span>
-               </Col>
-             </Row>
+          <Waitlist />
+            
           </main>
          </Container>
       
