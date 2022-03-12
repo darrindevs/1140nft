@@ -61,6 +61,10 @@
 *********** Containers ***********
 */
 
+#benefits {
+    background-color: rgb(222, 218, 218);
+}
+
 .container-1  {
     background-image: url('https://zno.s3.us-west-1.amazonaws.com/LA1.png');
     
@@ -516,7 +520,10 @@ h1 {
     }
 }
 
-
+ul {
+    list-style-type: none;
+    
+  }
 
 
   

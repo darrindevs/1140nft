@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap'
 const Benefits = () => (
     
     
-    <Row className="justify-content-md-center pt-5 pb-5">
+    <Row id="benefits" className="justify-content-md-center pt-5 pb-5">
                <Col md={{ span: 4, offset: 0 }}>
                <h2>Benefits</h2>
             <ul>
