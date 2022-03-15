@@ -19,6 +19,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import NavDark from "./nav-dark"
 //import NavLight from "./nav-light"
 //import Footer from "./Footer"
+import Footie from "./Footie"
 //import "./layout.css"  
 // 👆 replaced with bootstrap minified 👇
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -69,7 +70,7 @@ const Layout = ({ children }) => {
           {children}
           </main>
          </Container>
-         
+         <Footie />
         
     </>
   )
