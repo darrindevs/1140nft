@@ -11,7 +11,8 @@ import { Button } from 'react-bootstrap'
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  } from '@fortawesome/free-solid-svg-icons'
-import { faCoffee } from '@fortawesome/pro-regular-svg-icons'
+import { faCoffee,  } from '@fortawesome/pro-regular-svg-icons'
+import { faSignHanging } from '@fortawesome/pro-duotone-svg-icons'
 
 
 
@@ -30,7 +31,7 @@ const Timeline = () => (
                <h6><span className="badge bg-dark">Phase 1</span></h6>
                
                <ul>
-                   <li><FontAwesomeIcon icon={faCoffee} className="fa-xs"/>Land Acquisition, Geotechnical Survey, Boundary Survey, Alley Dedication Waiver, Certificate of Compliance, Fire Hydrant Flow Rate Certification
+                   <li><FontAwesomeIcon icon={faSignHanging} className="fa-xs"/>Land Acquisition, Geotechnical Survey, Boundary Survey, Alley Dedication Waiver, Certificate of Compliance, Fire Hydrant Flow Rate Certification
                     <sup><span className="badge rounded-pill bg-success ms-3">Complete</span></sup></li>
                    
                </ul>
