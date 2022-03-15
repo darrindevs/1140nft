@@ -14,13 +14,11 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const element = <FontAwesomeIcon icon={faCoffee} />
 
-
-
 const Timeline = () => (
     
     <>
     <Row id="timeline-heading" className="justify-content-md-center pt-5">
-        Project Timeline
+        Project Timeline!
     </Row>
     <Row className="justify-content-md-center">
     <div className='timeline-container'>
