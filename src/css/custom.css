@@ -1,4 +1,65 @@
 /* 
+*********** Base ***********
+*/
+
+:root {
+    --logo: #1e90ff;
+    --nav: #3F46AD;
+    --background: #0D1C45;
+    --primary: #1e90ff;
+    --secondary: #1e90ff;
+    --accent1: #3EB890;
+    --accent2: #EE1D25;
+    --accent3: #edb625;
+    --white: #ffffff;
+  }
+
+
+  
+body {
+    background-color: var(--background);
+}
+
+.bg-success {
+    background-color: #3EB890 !important;
+    display: none;
+}
+
+.phase-label {
+    font-size: small;
+}
+
+.completed {
+    color: var(--accent1);
+    font-weight: 700;
+}
+
+.upcoming {
+    color: var(--secondary);
+}
+
+.acquisition {
+    color: var(--background);
+}
+
+.rounded-pill {
+
+}
+
+.event-label {
+    
+}
+
+.event-name {
+    
+}
+
+
+.event-meta {
+    font-size: small;
+}
+
+/* 
 *********** Colors ***********
 */
 
@@ -73,13 +134,22 @@
 }
 
 /* 
-*********** Headings  ***********
+*********** Headings / Text  ***********
 */
 
 h1 {
     font-size: 72px;
+    color: var(--white);
 }
 
+h6 {
+    font-size: small;
+}
+
+p {
+    font-size: 22px;
+    color: var(--white);
+}
 
 /* 
 *********** BLock Grid   ***********
@@ -287,6 +357,9 @@ h1 {
     
 }
 
+.timeline-badge {
+    font-size: xx-small;
+}
 
 /* 
 *********** Cards ***********
