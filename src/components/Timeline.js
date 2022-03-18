@@ -12,12 +12,12 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import {  } from '@fortawesome/free-solid-svg-icons'
 //import {  } from '@fortawesome/free-regular-svg-icons'
-//import {  } from '@fortawesome/pro-solid-svg-icons'
+import { faArrowDown } from '@fortawesome/pro-solid-svg-icons'
 //import {  } from '@fortawesome/pro-regular-svg-icons'
 //import {  } from '@fortawesome/pro-light-svg-icons'
 //import {  } from '@fortawesome/pro-thin-svg-icons'
 import { faEthereum } from '@fortawesome/free-brands-svg-icons'
-import { faSignHanging, faRulerCombined, faFileCertificate, faHandshakeSimple, faCompassDrafting, faFileContract, faShovel, faStars, faFootball, faTrainSubway, faSwordsLaser, faLocationDot, faBasketball  } from '@fortawesome/pro-duotone-svg-icons'
+import { faSignHanging, faRulerCombined, faFileCertificate, faHandshakeSimple, faCompassDrafting, faFileContract, faShovel, faStars, faFootball, faTrainSubway, faSwordsLaser, faLocationDot, faBasketball, faShareAll, faHouseBuilding, faRecycle, faRocket, faCoins, faCoinVertical, faMedal, faSackDollar, faKey } from '@fortawesome/pro-duotone-svg-icons'
 
 
 
@@ -74,8 +74,9 @@ const Timeline = () => (
        </div>
        <div className="timeline-item">
            <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 2</span><span className='phase-label ms-3'>2022</span></h6>
+           <h6><span className="badge bg-dark mb-3">Phase 2</span><span className='phase-label ms-3'>2022 - 2023</span></h6>
                <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faCompassDrafting} className="fa-xs me-2"/>Design, Architecture, and Engineering</h5>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faFileContract} className="fa-xs me-2"/>Entitlement and Permitting</h5>
                <span className="circle"></span>
            </div>
        </div>
@@ -88,16 +89,10 @@ const Timeline = () => (
                <span className="circle"></span>
            </div>
        </div>
+       
        <div className="timeline-item">
            <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 2</span><span className='phase-label ms-3'>2023</span></h6>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faFileContract} className="fa-xs me-2"/>Entitlement and Permitting</h5>
-               <span className="circle"></span>
-           </div>
-       </div>
-       <div className="timeline-item">
-           <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 2</span><span className='phase-label ms-3'>2023</span></h6>
+           <h6><span className="badge bg-dark mb-3">Phase 3</span><span className='phase-label ms-3'>2023 -2024</span></h6>
                <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faShovel} className="fa-xs me-2"/>Construction</h5>
                <span className="circle"></span>
            </div>
@@ -112,45 +107,48 @@ const Timeline = () => (
        </div>
        <div className="timeline-item">
            <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 3</span></h6>
+           <h6><span className="badge bg-dark mb-3">Phase 4</span></h6>
            <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faStars} className="fa-xs me-2"/>DAO Launch</h5>
-           <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faStars} className="fa-xs me-2"/>Rental Revenue Profit Sharing</h5>
-           <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faStars} className="fa-xs me-2"/>Member Accommodation</h5>
+           <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faCoins} className="fa-xs me-2"/>DAO Rental Revenue Profit Sharing</h5>
+           <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faKey} className="fa-xs me-2"/>DAO Access + Accommodation</h5>
                <span className="circle"></span>
            </div>
        </div>
        <div className="timeline-item">
            <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 4</span><span className='phase-label acquisition ms-3'>Acquisition</span></h6>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Additional Property Acquisition</h5>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Further Property Development</h5>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Rental Revenue Profit Sharing</h5>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Member Accomodation</h5>
-               <span className="circle"></span>
-           </div>
-       </div>
-       <div className="timeline-item">
-           <div className="timeline-item-content">
-           <h6 className="event-label"><span className="badge bg-primary mb-3">Area Events</span></h6>
-               <h5 className="ms-2 event-name"><FontAwesomeIcon icon={faBasketball} className="fa-xs me-2"/>Clippers Intuit Dome Opening</h5>
-               <span className="event-meta"><span>2024</span><FontAwesomeIcon icon={faLocationDot} className="fa-xs ms-3 me-1"/>3 miles away</span>
-               <span className="circle"></span>
-           </div>
-       </div>
-       <div className="timeline-item">
-           <div className="timeline-item-content">
-           <h6><span className="badge bg-dark mb-3">Phase 4</span><span className='phase-label acquisition ms-3'>Liquidation</span></h6>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Select Properties Will Be Sold</h5>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faEthereum} className="fa-xs me-2"/>Profit Sharing With Members</h5>
-               
+           <h6><span className="badge bg-dark mb-3">Phase 5</span><span className='phase-label ms-3'>2024</span></h6>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faRecycle} className="fa-xs me-2"/>Acquisition + Development</h5>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faShareAll} className="fa-xs me-2"/>DAO Profit Sharing + Access</h5>
                <span className="circle"></span>
            </div>
        </div>
        
+       <div className="timeline-item">
+           <div className="timeline-item-content">
+           <h6><span className="badge bg-dark mb-3">Phase 6</span><span className='phase-label acquisition ms-3'>2027 - 2028</span></h6>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faSackDollar} className="fa-xs me-2"/>Liquidation of Select Properties</h5>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faShareAll} className="fa-xs me-2"/>DAO Profit Sharing</h5>
+               
+               <span className="circle"></span>
+           </div>
+       </div>
+       <div className="timeline-item">
+           <div className="timeline-item-content">
+           <h6 className="event-label"><span className="badge bg-primary mb-3">Area Events</span><span className='phase-label ms-3'>2028</span></h6>
+               <h5 className="ms-2 event-name"><FontAwesomeIcon icon={faMedal} className="fa-xs me-2"/>Summer Olympics</h5>
+               <span className="event-meta"><span></span><FontAwesomeIcon icon={faLocationDot} className="fa-xs ms-3 me-1"/>3 miles away</span>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faHouseBuilding} className="fa-xs me-2"/>Member Accommodation</h5>
+               <span className="circle"></span>
+           </div>
+       </div>
+       <div className="timeline-item">
+           <div className="">
+               <span className="perpetuity"><span class="badge bg-primary continuation"><FontAwesomeIcon icon={faArrowDown} className="me-2"/>Continuation of DAO</span></span>
+           </div>
+       </div>
+       <h3>&nbsp;</h3>
    </div>
     </Row>
-    
-    
     </>
     
     

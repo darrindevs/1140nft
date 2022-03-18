@@ -10,7 +10,10 @@ import { Button } from 'react-bootstrap'
 
 const Footie = () => (
     <div className="footie">
-      <h6 className="small">© 1140nft 2022</h6>
+      <span>
+      <span className="small">© 1140nft 2022</span>
+      <span className="small ms-3">Built by <a href="https://dynamo.dev" target="_blank"><strong>Dynamo</strong></a></span>
+      </span>
     </div>
 );
 
