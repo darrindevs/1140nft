@@ -37,7 +37,7 @@ const IndexPage = () => (
     <Seo title="1140 NFT" />
     <Hero />
     <Blockgrid />
-    
+    <Benefits />
     <Timeline />
     <Waitlist />
   </Layout>

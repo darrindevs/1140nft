@@ -24,9 +24,6 @@ import {  } from '@fortawesome/pro-duotone-svg-icons'
 const Timeline = () => (
     
     <>
-    <Row id="timeline-heading" className="justify-content-md-center pt-5">
-        Project Timeline!
-    </Row>
     <Row className="justify-content-md-center">
     <div className='timeline-container'>
        <div className="timeline-item">
@@ -34,7 +31,8 @@ const Timeline = () => (
                <h6><span className="badge bg-secondary mb-2">Phase 1</span><span className='phase-label completed ms-3'><i>Completed</i></span></h6>
                <h5 className="ms-2"><FontAwesomeIcon icon={faSignHanging} className="fa-xs me-2 iconic"/>Land Acquisition<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
                <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faRulerCombined} className="fa-xs me-2 iconic"/>Geotechnical Survey, Boundary Survey, Alley Dedication Waiver<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
-              
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faFileCertificate} className="fa-xs me-2 iconic"/>Certificate of Completion, Fire Hydrant Flow Rate Certification<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faHandshakeSimple} className="fa-xs me-2 iconic"/>AMK Design Partnership<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
                <span className="circle"></span>
            </div>
        </div>
@@ -47,15 +45,7 @@ const Timeline = () => (
                <span className="circle"></span>
            </div>
        </div>
-       <div className="timeline-item">
-           <div className="timeline-item-content">
-               <h6><span className="badge bg-secondary mb-2">Phase 1</span><span className='phase-label completed ms-3'><i>Completed</i></span></h6>
-               
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faFileCertificate} className="fa-xs me-2 iconic"/>Certificate of Completion, Fire Hydrant Flow Rate Certification<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
-               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faHandshakeSimple} className="fa-xs me-2 iconic"/>AMK Design Partnership<span className="badge rounded-pill bg-success ms-3 timeline-badge">Complete</span></h5>
-               <span className="circle"></span>
-           </div>
-       </div>
+       
        <div className="timeline-item">
            <div className="timeline-item-content">
            <h6><span className="badge bg-secondary mb-2">Phase 2</span><span className='phase-label ms-3'><i>Summer 2022</i></span></h6>
@@ -65,7 +55,7 @@ const Timeline = () => (
        </div>
        <div className="timeline-item">
            <div className="timeline-item-content">
-           <h6 className="event-label"><span className="badge bg-primary mb-2">Area Events</span><span className='phase-label ms-3'><i>Nov 2022</i></span></h6>
+           <h6 className="event-label"><span className="badge bg-primary mb-2">Area Events</span><span className='phase-label ms-3'><i>2022</i></span></h6>
                <h5 className="ms-2 event-name"><FontAwesomeIcon icon={faTrainSubway} className="fa-xs me-2 iconic"/>Metro Crenshaw Line Opening</h5>
                <span className="event-meta"><span></span><FontAwesomeIcon icon={faLocationDot} className="fa-xs ms-4 me-1 location"/>2 miles away</span>
                
@@ -94,6 +84,7 @@ const Timeline = () => (
            <div className="timeline-item-content">
            <h6><span className="badge bg-secondary mb-2">Phase 3</span><span className='phase-label ms-3'><i>2023 -2024</i></span></h6>
                <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faShovel} className="fa-xs me-2 iconic"/>Construction</h5>
+               <h5 className="ms-2 mt-2"><FontAwesomeIcon icon={faShovel} className="fa-xs me-2 iconic"/>Certificate of Occupancy</h5>
                <span className="circle"></span>
            </div>
        </div>

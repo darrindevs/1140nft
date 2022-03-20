@@ -14,12 +14,14 @@
     --accent2: #EE1D25;
     --accent3: #edb625;
     --white: #ffffff;
+    
   }
 
 
   
 body {
     background-color: var(--background);
+    color: #ffffff;
 }
 
 .bg-success {
@@ -132,12 +134,26 @@ body {
     text-decoration: var(--accent1) underline 5px;
 }
 
+.benicon {
+    font-size: small;
+    color: var(--accent2)
+}
+
+.bennys {
+    font-size: large;
+}
+
+#benefits {
+    margin-top: 80px;
+}
 /* 
 *********** Containers ***********
 */
 
-#benefits {
-    background-color: rgb(222, 218, 218);
+#benefits-content {
+   background-color: rgb(53, 52, 52);
+   padding: 40px;
+   border-radius: 40px;
 }
 
 .container-1  {
@@ -165,12 +181,16 @@ h5 {
 }
 
 h6 {
-    font-size: small;
+    font-size: large;
 }
 
 p {
     font-size: 22px;
     color: var(--white);
+}
+
+li {
+    color: #ffffff;
 }
 
 .foo {
@@ -604,10 +624,21 @@ p {
     z-index: 100;
 }
 
- .perpetuity {
+/* if changing nth */ 
+ /*.perpetuity {
     position: absolute;
     top: calc(50% - 10px);
     right: 60px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+    margin-top: 50px;
+}*/
+
+.perpetuity {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: -80px;
     width: 20px;
     height: 20px;
     z-index: 100;
@@ -667,4 +698,8 @@ ul {
   }
 
 
+
+  #foo {
+ 
+  }
   
