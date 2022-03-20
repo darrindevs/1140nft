@@ -24,26 +24,27 @@ const Benefits = () => (
     <Row id="benefits" className="justify-content-md-center pt-5 pb-5">
         <Col md={{ span: 5, offset: 0 }}>
             <div id="benefits-content">
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-center">
                 <h3 className='mb-5'>The Long Term Value NFT</h3>
             </div>
                 
                <Container>
                     <Row>
-                        <Col md="auto">
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Real World Value</h4>
+                        <Col md="">
                         <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Innovative Model</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Real World Value</h4>
+                        </Col>
+                        <Col md="">
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Limited Supply</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member DAO</h4>
+                        
+                            </Col>
+                        <Col md="">
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Profit Sharing</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member IRL Access</h4>
                         
                         </Col>
-                        <Col md="auto">
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member DAO</h4>
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Profit Sharing</h4>
-                            </Col>
-                        <Col md="auto">
-                       
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member Access</h4>
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Something Something</h4>
-                        </Col>
+                        
                         
                     </Row>
                 </Container>

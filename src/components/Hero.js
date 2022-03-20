@@ -14,7 +14,12 @@ const Hero = () => (
                  <h2 className='mb-3 mt-3'>The world's first NFT funded real estate development.</h2>
                  <p>1140NFT is an innovative NFT project that shares the value of real world real estate with the NFT holders. The NFT funds the development of properties in Los Angeles into rental and resale properties. The NFT holders will have member access to the properties and share in rental and resale revenues. 
                 </p>
-                 <a className="link" href='/whitepaper'>Read the whitepaper</a>
+                <a className="link" href='/whitepaper'>Read the whitepaper</a>
+                {/*
+                <div id="launching"><span className="badge bg-primary mb-2"><h5>NFT Launch Summer 2022</h5></span></div>
+                */}
+                
+                 
                  
                </Col>
              </Row>
