@@ -209,6 +209,8 @@ li {
     color: white;
 }
 
+#tagline { white-space: nowrap;}
+
 .link {
     color: white;
     font-style: italic;
