@@ -24,24 +24,35 @@ const Benefits = () => (
     <Row id="benefits" className="justify-content-md-center pt-5 pb-5">
         <Col md={{ span: 5, offset: 0 }}>
             <div id="benefits-content">
-            <div class="d-flex justify-content-center">
-                <h3 className='mb-5'>The Long Term Value NFT</h3>
-            </div>
-                
+            
+                <Row>
+                    <Col></Col>
+                    <Col md={{ span: 10, offset: 0 }}>
+                    <div className="mb-5">
+                    <h2 className='mb-3'>The Long-Term Value NFT</h2>
+                    <p className='benefits-p'>1140nft is a long-term capital project that will reward early investors exponentially. </p>
+                    <p>NFT holders earn points toward 1140DAO every day that they hold the token in their wallet. 1140DAO will provide members with long-term recurring passive income opportunities.</p>
+                    </div>
+                    </Col>
+                    <Col></Col>
+                </Row>
                <Container>
                     <Row>
-                        <Col md="">
+                        <Col xl={{ span: 3, offset: 0 }}>
                         <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Innovative Model</h4>
                         <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Real World Value</h4>
-                        </Col>
-                        <Col md="">
                         <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Limited Supply</h4>
+                        </Col>
+                        <Col xl={{ span: 4, offset: 0 }}>
                         <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member DAO</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Voting + Governance</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Points Leaderboard</h4>
                         
                             </Col>
-                        <Col md="">
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Profit Sharing</h4>
-                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Member IRL Access</h4>
+                        <Col xl={{ span: 5, offset: 0 }}>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Rental Income Profit Sharing</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>Resale Income Profit Sharing</h4>
+                        <h4 className="ms-2 bennys"><FontAwesomeIcon icon={faCircleDot} className="fa-xs me-2 benicon"/>IRL Property Access</h4>
                         
                         </Col>
                         

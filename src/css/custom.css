@@ -135,6 +135,10 @@ body {
     text-decoration: var(--accent1) underline 5px;
 }
 
+/* 
+*********** Benefits ***********
+*/
+
 .benicon {
     font-size: small;
     color: var(--accent2)
@@ -147,15 +151,21 @@ body {
 #benefits {
     margin-top: 80px;
 }
-/* 
-*********** Containers ***********
-*/
+
 
 #benefits-content {
    background-color: var(--gray);
    padding: 40px;
    border-radius: 10px;
 }
+
+.benefits-p {
+    
+}
+
+/* 
+*********** Launching ***********
+*/
 
 #launching {
     background-color: var(--gray);
@@ -167,6 +177,10 @@ body {
  .launching-text {
      color: var(--white);
  }
+
+ /* 
+*********** Containers ***********
+*/
 
 .container-1  {
     background-image: url('https://zno.s3.us-west-1.amazonaws.com/LA1.png');
@@ -209,7 +223,10 @@ li {
     color: white;
 }
 
-#tagline { white-space: nowrap;}
+#tagline { 
+    white-space: nowrap;
+    font-weight: 700;
+}
 
 .link {
     color: white;
